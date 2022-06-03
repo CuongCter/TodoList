@@ -1,0 +1,33 @@
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 15px;
+    font-size: 24px;
+    background-color: rgb(150, 240, 185);
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    &_title {
+        color: rgb(59, 68, 245)
+    }
+
+    &_icon {
+        display: flex;
+
+        &-checked,
+        &-clear {
+            width: 40px;
+            height: 40px;
+            padding: 15px;
+            background-color: rgb(133, 207, 237);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            margin: 0 2px;
+            color: rgb(34, 26, 10);
+        }
+    }
+}
